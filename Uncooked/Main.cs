@@ -1,19 +1,30 @@
 ﻿using UnityEngine;
 
-namespace Uncooked
-{
-    class Main : MonoBehaviour
-    {
-        public void Start()
-        {
+namespace Uncooked {
+    internal class Main : MonoBehaviour {
+
+        private Bot bot;
+        private Menu menu;
+
+        public void Start() {
+            Logger.Clear();
+            Logger.Log("Loaded.");
+
+            bot = new Bot();
+            bot.Init();
+            menu = new Menu();
+            menu.Start(bot);
+
         }
-        public void Update()
-        {
+        public void Update() {
+            bot.Update();
+            menu.Update();
+            
+            Debug.Update();
         }
-        public void OnGUI()
-        {
-            // Here you can call IMGUI functions of Unity to build your UI for the hack :)
-            GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 150f, 50f), "GAME INJECTED"); // Should work and when injected you will see this text in the middle of the screen
+
+        public void OnGUI() {
+            menu.OnGUI();
         }
     }
 }

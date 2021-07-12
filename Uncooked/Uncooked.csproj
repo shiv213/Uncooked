@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4FFBC068-DF90-4991-B206-E12C965C6CFD}</ProjectGuid>
+    <ProjectGuid>{2C73F277-086B-40A2-96DF-7089EECCAAA6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Uncooked</RootNamespace>
     <AssemblyName>Uncooked</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -34,118 +34,113 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaxyCSharp">
+      <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\GalaxyCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\Mono.Security.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AccessibilityModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.AccessibilityModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.AIModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.AIModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.AnimationModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ARModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.ARModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.ARModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.AssetBundleModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.AudioModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.BaselibModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.BaselibModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.ClothModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.ClusterInputModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.ClusterRendererModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CrashReportingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.CrashReportingModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.DirectorModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.FileSystemHttpModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.FileSystemHttpModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.GameCenterModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.GameCenterModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.GridModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.ImageConversionModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.IMGUIModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.InputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.InputModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.InputModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.JSONSerializeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.JSONSerializeModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.LocalizationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.LocalizationModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.ParticleSystemModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PerformanceReportingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.Physics2DModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
@@ -154,58 +149,46 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ScreenCaptureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.SharedInternalsModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.SpriteMaskModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.SpriteShapeModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.StreamingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.StreamingModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.StyleSheetsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.StyleSheetsModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.TerrainModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TextCoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.TextCoreModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.TextRenderingModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.TilemapModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Timeline, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.Timeline">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TimelineModule">
@@ -214,85 +197,106 @@
     <Reference Include="UnityEngine.TLSModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UI">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UIElementsModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UIModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UNETModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UNETModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityConnectModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UnityConnectModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestTextureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestWWWModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VehiclesModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.VehiclesModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VFXModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.VFXModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.VideoModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VRModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.VRModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.VRModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.WindModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.WindModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.WindModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.XRModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.XRModule">
       <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>..\..\..\..\..\..\..\..\Overcooked2\Overcooked2_Data\Managed\UnityFbxPrefab.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs" />
+    <Compile Include="Action\Action.cs" />
+    <Compile Include="Action\ChopAction.cs" />
+    <Compile Include="Action\ChopIngredientAction.cs" />
+    <Compile Include="Action\CookIngredientAction.cs" />
+    <Compile Include="Action\DeliverPlateAction.cs" />
+    <Compile Include="Action\GetRawIngredientAction.cs" />
+    <Compile Include="Action\HandleIngredientAction.cs" />
+    <Compile Include="Action\HandleOrderAction.cs" />
+    <Compile Include="Action\IPausableAction.cs" />
+    <Compile Include="Action\ISequentialAction.cs" />
+    <Compile Include="Action\MoveAction.cs" />
+    <Compile Include="Action\MoveTargetAction.cs" />
+    <Compile Include="Action\OrderData.cs" />
+    <Compile Include="Action\PathFindAction.cs" />
+    <Compile Include="Action\PickDropAction.cs" />
+    <Compile Include="Action\PlateHoldingAction.cs" />
+    <Compile Include="Action\ProcessIngredientAction.cs" />
+    <Compile Include="Bot.cs" />
+    <Compile Include="Debug.cs" />
+    <Compile Include="Keyboard.cs" />
     <Compile Include="Loader.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Menu\Button\Button.cs" />
+    <Compile Include="Menu\Button\FunctionButton.cs" />
+    <Compile Include="Menu\Button\ParamFunctionButton.cs" />
+    <Compile Include="Menu\Button\SectionButton.cs" />
+    <Compile Include="Menu\Button\TextBox.cs" />
+    <Compile Include="Menu\Button\ToggleButton.cs" />
+    <Compile Include="Menu\Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\ComponentUtil.cs" />
+    <Compile Include="Util\ItemUtil.cs" />
+    <Compile Include="Util\ObjectUtil.cs" />
+    <Compile Include="Util\OrderUtil.cs" />
+    <Compile Include="Util\PlayerUtil.cs" />
+    <Compile Include="Util\ReflectionUtil.cs" />
+    <Compile Include="Util\StationUtil.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
